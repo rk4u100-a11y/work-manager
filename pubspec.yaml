@@ -1,0 +1,29 @@
+name: work_manager
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.12.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  workmanager: ^0.5.2
+  image_picker: ^1.2.0
+  geolocator: ^14.0.3
+  speech_to_text: ^7.4.0
+  pdf: ^3.11.3
+  google_sign_in: ^6.2.1
+  flutter_local_notifications: ^22.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
